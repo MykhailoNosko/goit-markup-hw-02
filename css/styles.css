@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+/*header section*/
+.header {
+  color: var(--secondary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.logo {
+  color: var(--primary-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.nav {
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav {
+  color: var(--secondary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.auth-nav:hover,
+.auth-nav:focus {
+  color: var(--accent-color);
+}
+/*button section*/
+.link {
+  cursor: pointer;
+}
+.nav-btn .link {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.nav-btn .link:hover,
+.nav-btn .link:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* images section*/
+
+.example {
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.type {
+  color: var(--secondary-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+/*footer*/
+
+.adrs {
+  color: var(--white-color);
+  background-color: #2f303a;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.adrs:hover,
+.adrs:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
