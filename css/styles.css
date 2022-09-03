@@ -3,6 +3,7 @@
   --secondary-color: #757575;
   --white-color: #ffffff;
   --accent-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 body {
@@ -68,6 +69,38 @@ body {
 .auth-nav:focus {
   color: var(--accent-color);
 }
+
+/*hero section*/
+.hero-main {
+  color: var(--white-color);
+  background-color: var(--background-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+}
 /*button section*/
 .link {
   cursor: pointer;
@@ -88,7 +121,40 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-/* images section*/
+
+/* about section*/
+.about-items {
+  color:var(--primary-color)
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-dscr{
+color:var(--secondary-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.promo,
+.all-staff{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+
+}
+/* images section portfolio page*/
 
 .example {
   color: var(--primary-color);
@@ -99,6 +165,15 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.human{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.219px;
+  letter-spacing: 0.03em;
+}
+
 .type {
   color: var(--secondary-color);
   font-family: "Roboto";
@@ -129,7 +204,7 @@ body {
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;
+  background-color: var(--background-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
