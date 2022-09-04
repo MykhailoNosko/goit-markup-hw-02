@@ -4,6 +4,8 @@
   --white-color: #ffffff;
   --accent-color: #2196f3;
   --background-color: #2f303a;
+  --background-button:#F5F4FA;
+
 }
 
 body {
@@ -14,10 +16,12 @@ body {
   list-style: none;
 }
 /*header section*/
+.current-page{
+  color: var(--accent-color);
+  text-decoration: none;
+}
 .header {
   color: var(--secondary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -36,14 +40,12 @@ body {
 }
 .logo:hover,
 .logo:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: var(--primary-color);
+  
 }
 
 .nav {
   color: var(--primary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -57,8 +59,6 @@ body {
 
 .auth-nav {
   color: var(--secondary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -74,8 +74,6 @@ body {
 .hero-main {
   color: var(--white-color);
   background-color: var(--background-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -85,8 +83,6 @@ body {
 .main-btn {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -98,8 +94,11 @@ body {
 }
 .main-btn:hover,
 .main-btn:focus {
-  color: var(--accent-color);
-  background-color: var(--white-color);
+  background-color:#007be5;
+}
+/* staff cection*/
+.staff{
+  background-color: var(--background-button);
 }
 /*button section*/
 .link {
@@ -108,8 +107,7 @@ body {
 .nav-btn .link {
   cursor: pointer;
   color: var(--primary-color);
-  font-family: "Roboto";
-  font-style: normal;
+  background-color: var(--background-button);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -125,8 +123,6 @@ body {
 /* about section*/
 .about-items {
   color:var(--primary-color)
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -136,8 +132,6 @@ body {
 
 .about-dscr{
 color:var(--secondary-color);
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
@@ -145,8 +139,6 @@ letter-spacing: 0.03em;
 }
 .promo,
 .all-staff{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
@@ -156,41 +148,47 @@ letter-spacing: 0.03em;
 }
 /* images section portfolio page*/
 
-.example {
+.image {
   color: var(--primary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .person{
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.219px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
 .type {
   color: var(--secondary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  
 }
 /*footer*/
-
+.logo-footer{
+  color: var(--white-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer,
+.hero{
+  background-color: #2f303a;
+}
 .adrs {
   color: var(--white-color);
-  background-color: #2f303a;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -199,14 +197,11 @@ letter-spacing: 0.03em;
 .adrs:hover,
 .adrs:focus {
   color: var(--white-color);
-  background-color: var(--accent-color);
 }
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--background-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -216,5 +211,4 @@ letter-spacing: 0.03em;
 .contact:hover,
 .contact:focus {
   color: var(--white-color);
-  background-color: var(--accent-color);
 }
