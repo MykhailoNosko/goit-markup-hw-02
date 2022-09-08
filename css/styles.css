@@ -14,6 +14,7 @@ body {
 }
 .list {
   list-style: none;
+  text-decoration: none;
 }
 /*header section*/
 .current-page{
@@ -147,13 +148,16 @@ letter-spacing: 0.03em;
 
 }
 /* images section portfolio page*/
-
+a{
+  text-decoration: none;
+}
 .image {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  
 }
 .person{
   font-weight: 500;
@@ -168,6 +172,7 @@ letter-spacing: 0.03em;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  
   
 }
 /*footer*/
@@ -204,6 +209,7 @@ letter-spacing: 0.03em;
   background-color: var(--background-color);
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
